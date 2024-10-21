@@ -1,0 +1,25 @@
+
+
+
+.list{
+    width: 80%;
+    height: 90vh;
+    overflow-y: scroll;
+    >div{
+        color: white;
+   //padding: 2rem;
+        background-color: rgba(255,255,255,0.03);
+        border-radius: 20px;
+        padding: 1.3rem;
+        max-width: 100%;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        
+    }
+    .line{
+        height: 1px;
+        background-color: white;
+        max-width: 100%;
+        margin: 1rem 0;
+    }
+}

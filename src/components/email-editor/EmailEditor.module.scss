@@ -1,0 +1,87 @@
+$color-text: white;
+$btn-color: #1a1a1a;
+
+
+.wrapper{
+   overflow-y: scroll;
+   height: 90vh;
+
+
+.preview{
+   margin-bottom: 1.5rem;
+   border: 1px solid $btn-color;
+   padding: 1rem;
+   border-radius: 10px;
+
+   
+}
+
+.card{
+   color: $color-text;
+   //padding: 2rem;
+   background-color: rgba(255,255,255,0.03);
+   border-radius: 20px;
+   display: block;
+   flex-direction: row;
+   
+
+   .input{
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      outline: none;
+      border: none;
+      font-size: 16px;
+   }
+   
+   
+
+   .editor{
+         display: block;
+         //width:calc(100% - 2rem);
+         min-height: 200px;
+         font-size: 1rem;
+         border: none;
+         outline: none;
+         border-radius: 10px;
+         padding: 1.3rem;
+         
+         
+         resize: none;
+         width: 100%;
+         box-sizing: border-box;
+         
+   }
+   .line{
+    width: 100%;
+    background-color: $color-text;
+    height: 1px;
+    margin: 1.6rem 0;
+    
+  }
+   .action{
+      border-color: rgba(255,255,255,0.5);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: .3rem 1.2rem;
+      
+    .tools{
+       >button{
+        margin-right: 1rem;
+        border: none;
+        background-color: transparent;
+        transition: .3s;
+        &:hover{
+            background-color: $btn-color;
+        }
+       }
+    }
+   }
+}
+
+
+}
